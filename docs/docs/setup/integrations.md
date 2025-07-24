@@ -20,8 +20,8 @@ Else you have to add the ClamAV container to the Pingvin Share Docker Compose st
 
 ```diff
 services:
-  pingvin-share:
-    image: stonith404/pingvin-share
+  drop-off:
+    image: antoszka/drop-off
     ...
 +   depends_on:
 +     clamav:

@@ -1,5 +1,5 @@
 {
-  "name": "pingvin-share-backend",
+  "name": "drop-off-backend",
   "version": "1.13.0",
   "scripts": {
     "build": "nest build",

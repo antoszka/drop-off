@@ -27,14 +27,14 @@ const Intro = () => {
             If you enjoy Pingvin Share please ⭐️ it on{" "}
             <Anchor
               target="_blank"
-              href="https://github.com/stonith404/pingvin-share"
+              href="https://github.com/antoszka/drop-off"
             >
               GitHub
             </Anchor>{" "}
             or{" "}
             <Anchor
               target="_blank"
-              href="https://github.com/sponsors/stonith404"
+              href="https://github.com/sponsors/antoszka"
             >
               buy me a coffee
             </Anchor>{" "}

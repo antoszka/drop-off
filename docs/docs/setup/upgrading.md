@@ -24,12 +24,12 @@ docker compose up -d
 
 1. Stop the running app
    ```bash
-   pm2 stop pingvin-share-backend pingvin-share-frontend
+   pm2 stop drop-off-backend drop-off-frontend
    ```
 2. Repeat the steps from the [installation guide](#stand-alone-installation) except the `git clone` step.
 
    ```bash
-   cd pingvin-share
+   cd drop-off
 
    # Checkout the latest version
    git fetch --tags && git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
@@ -38,12 +38,12 @@ docker compose up -d
    cd backend
    npm install
    npm run build
-   pm2 restart pingvin-share-backend
+   pm2 restart drop-off-backend
 
    # Start the frontend
    cd ../frontend
    npm install
    npm run build
-   pm2 restart pingvin-share-frontend
+   pm2 restart drop-off-frontend
    ```
 Note that environment variables are not picked up when using pm2 restart, if you actually want to change configs, you need to run ````pm2 --update-env restart````

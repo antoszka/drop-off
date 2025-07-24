@@ -83,7 +83,7 @@ export const configVariables = {
     },
     "redis-url": {
       type: "string",
-      defaultValue: "redis://pingvin-redis:6379",
+      defaultValue: "redis://dropoff-redis:6379",
       secret: true,
     },
     ttl: {
@@ -431,7 +431,7 @@ const prisma = new PrismaClient({
     db: {
       url:
         process.env.DATABASE_URL ||
-        "file:../data/pingvin-share.db?connection_limit=1",
+        "file:../data/drop-off.db?connection_limit=1",
     },
   },
 });

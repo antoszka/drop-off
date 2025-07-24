@@ -31,7 +31,7 @@ const Footer = () => {
           Powered by{" "}
           <Anchor
             size="xs"
-            href="https://github.com/stonith404/pingvin-share"
+            href="https://github.com/antoszka/drop-off"
             target="_blank"
           >
             Pingvin Share

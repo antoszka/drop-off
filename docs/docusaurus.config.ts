@@ -6,12 +6,12 @@ const config: Config = {
   title: "Pingvin Share",
   tagline:
     "Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.",
-  favicon: "img/pingvinshare.svg",
+  favicon: "img/dropoff.svg",
 
-  url: "https://stonith404.github.io",
-  baseUrl: "/pingvin-share/",
-  organizationName: "stonith404",
-  projectName: "pingvin-share",
+  url: "https://antoszka.github.io",
+  baseUrl: "/drop-off/",
+  organizationName: "antoszka",
+  projectName: "drop-off",
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -28,7 +28,7 @@ const config: Config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/stonith404/pingvin-share/edit/main/docs",
+          editUrl: "https://github.com/antoszka/drop-off/edit/main/docs",
         },
         blog: false,
       } satisfies Preset.Options,
@@ -36,7 +36,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/pingvinshare.svg",
+    image: "img/dropoff.svg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -44,11 +44,11 @@ const config: Config = {
       title: "Pingvin Share",
       logo: {
         alt: "Pingvin Share Logo",
-        src: "img/pingvinshare.svg",
+        src: "img/dropoff.svg",
       },
       items: [
         {
-          href: "https://github.com/stonith404/pingvin-share",
+          href: "https://github.com/antoszka/drop-off",
           label: "GitHub",
           position: "right",
         },

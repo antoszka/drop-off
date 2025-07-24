@@ -38,7 +38,7 @@ Before you submit the pull request for review please ensure that
 2. Clone your fork to your machine with `git clone`
 
 ```
-$ git clone https://github.com/[your_username]/pingvin-share
+$ git clone https://github.com/[your_username]/drop-off
 ```
 
 3. Work - commit - repeat
