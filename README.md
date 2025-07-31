@@ -1,3 +1,9 @@
+## Project revivification
+
+I'm attempting to fix immediate security issues and bring the project back to life with at least security patches for the time being, so that people can safely use it.
+
+More info will follow as I get up to speed with this.
+
 > ## ⚠️ Project Archived
 >
 > After much consideration, I've chosen to focus my limited time and energy on my other project, [Pocket ID](https://github.com/pocket-id/pocket-id). As a solo developer, I've found it difficult to actively maintain multiple open source projects with the care and attention they deserve.
