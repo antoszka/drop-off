@@ -29,7 +29,7 @@
     "@types/jmespath": "^0.15.2",
     "archiver": "^7.0.1",
     "argon2": "^0.41.1",
-    "body-parser": "^2.2.0",
+    "body-parser": "^2.2.1",
     "cache-manager": "^6.4.2",
     "cacheable": "^1.9.0",
     "clamscan": "^2.4.0",
